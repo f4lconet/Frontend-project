@@ -81,6 +81,8 @@
 }
 
 .two-columns__brief {
+  margin: 0;
+  font-weight: normal;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -156,7 +158,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -195,7 +197,7 @@
   padding: 90px 0;
   position: relative;
   overflow: hidden;
-  z-index: -2;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
