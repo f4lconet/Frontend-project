@@ -1,4 +1,4 @@
 .place__text-container {
-    max-width: 456px;
+    max-width: 100%;
     grid-area: text-container;
 }
