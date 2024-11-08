@@ -1,0 +1,7 @@
+.page {
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgba(42, 44, 47, 1);
+    color: rgba(255, 255, 255, 1);
+}

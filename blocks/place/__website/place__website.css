@@ -1,0 +1,6 @@
+.place__website {
+    max-width: 456px;
+    align-self: flex-end;
+    gap: 32px;
+    grid-area: website;
+}
