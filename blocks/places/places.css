@@ -1,27 +1,13 @@
+@import url(./__list/places__list.css);
+@import url(./__item/places__item.css);
+
 .places {
-    max-width: 928px;
-    padding: 0 48px;
-    margin: 0 auto 92px;
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 15px 0 36px;
 }
 
-@media screen and (min-width: 1280px) {
-    .places {
-        max-width: 984px;
-        padding: 0 148px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .places {
-        max-width: 720px;
-        padding: 0 24px;
-        margin-bottom: 90px;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .places {
-        padding: 0;
-        margin-bottom: 66px;
-    }
+@media screen and (max-width: 568px) {
+  .places {
+    padding: 15px 0 18px;
+  }
 }
