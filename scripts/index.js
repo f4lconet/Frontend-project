@@ -33,7 +33,7 @@ function createCard(initialCard) {
         evt.target.closest('.card').remove('.card');
     });
     
-    // добавление кнопки лайка
+    // добавление лайка
     const likeButton = card.querySelector('.card__like-button');
     likeButton.addEventListener('click', function(evt) {
         evt.target.classList.toggle('card__like-button_is-active');
